@@ -1,0 +1,53 @@
+html {
+    font-family: "Avenir Next" serif;
+    color: #545454;
+    padding: 20px 40px;
+  }
+  
+  textarea {
+    font-size: 14pt;
+  }
+
+  .word {
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+  }
+
+  .text {
+    width: 500px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+
+  .enter {
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    color: white;
+    background-color: #545454;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .reset {
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    color: #545454;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .p {
+    clear: left;
+  }

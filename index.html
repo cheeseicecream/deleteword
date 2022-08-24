@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="move.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>特定の文字を削除</title>
+ 
+    </head>
+    <body>
+    
+        <header>
+            <h1>特定の文字を削除</h1> 
+        </header>
+        <h3>削除したい単語、元となる文章を入力後、Enterを押してください</h3>
+        <div class="contents">
+        <form>
+            <p>・削除したい単語</p>
+            <textarea class="word" id="word"></textarea>
+            <p>・元となる文章</p>
+            <textarea id="text" class="text"></textarea>
+            <input type="button" value="Enter" class="enter" id="enter">
+            <br>    
+        
+            <p>・結果</p>
+            <textarea id="output" class="text"></textarea>
+            <input type="reset" value="リセット" class="reset" id="reset">
+            
+
+        </form>
+        </div>
+
+    </body>
+</html>
